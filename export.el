@@ -1,0 +1,6 @@
+(require 'package)
+(package-initialize)
+(setf org-confirm-babel-evaluate nil)
+(setf org-html-htmlize-output-type 'css)
+(load-file "/emacs/ob-blockdiag.el")
+(prefer-coding-system 'utf-8-unix)
